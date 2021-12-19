@@ -1,0 +1,924 @@
+\documentclass[10pt, mathserif, professionalfonts, aspectratio=1610]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage[T1, T2A]{fontenc}
+
+\usepackage{pdfcomment}
+\usepackage[inactive,blur=0.6, fixcolor]{fancytooltips}
+\usepackage{pgfplotstable, pgf}
+\usepackage{pgfplots}
+\usepgfplotslibrary{patchplots}
+\usepgfplotslibrary{fillbetween}
+
+\usepackage{mathtools}
+\usepackage{tikz-cd}
+\usetikzlibrary{decorations.pathmorphing}
+
+\usepackage{amsmath,amstext,amsfonts,amssymb,amsthm, mathrsfs}
+\usepackage{mathtools}
+\usepackage{cases}
+\usepackage{ifthen}
+\usepackage{array}
+\usepackage{cellspace}
+\usepackage{tabularx}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{picture}
+\usepackage{ragged2e}
+\usepackage{indentfirst}
+\usepackage{hhline, slashbox}
+\usepackage{hyperref}
+\usepackage{pifont}
+\usepackage{smartdiagram}
+\usepackage{subcaption}
+
+\usepackage{xcolor, colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{Gray}{gray}{0.9}
+\definecolor{lightRed}{RGB}{250,225,200}
+
+%\usepackage{color,colortbl}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{er}
+\usetikzlibrary{automata}
+\usetikzlibrary{graphs}
+\usetikzlibrary{intersections}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{spy}
+\usepackage{pgf}
+\usepackage{pgfplots}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{slashbox}
+
+\usepackage{hhline, slashbox}
+\usepackage[mathscr]{eucal}
+\usepackage[ruled]{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{flafter}
+\usepackage{caption}
+
+\usepackage{enumitem}
+
+
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations}
+
+\makeatletter
+\def\No{\textnumero}
+\usepackage{pscyr}
+\renewcommand{\rmdefault}{ftm} % Times New Roman
+\renewcommand{\raggedright}{\leftskip=0.5pt \rightskip=0.5pt plus 0cm}
+
+
+
+\usepackage[ruled]{algorithm}
+\usepackage{ifthen}
+\usepackage{algpseudocode}
+\usepackage{enumitem}
+
+\def\No{\textnumero} 
+\def\labelenumi{\theenumi.}
+\def\labelitemi{\textcolor{orange!90!black}{$\bullet$}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+
+
+
+\definecolor{sfugrey}{RGB}{175,185,195}
+\definecolor{sfugreydark}{RGB}{80,90,110}
+\definecolor{sfuorange}{RGB}{230,110,36}
+
+\usetheme{Madrid}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+% Русский псевдокод
+
+\captionsetup[ruled]{labelsep=period}
+\renewcommand{\thealgorithm}{\arabic{algorithm}}%
+
+\floatname{algorithm}{Алгоритм}
+\algrenewcommand\algorithmicrequire{\textbf{Вход: }}
+\algrenewcommand\algorithmicensure{\textbf{Выход: }}
+\algrenewcommand\algorithmicwhile{\textbf{До тех пор пока}}
+	\algrenewcommand\algorithmicdo{\textbf{выполнять}}
+	\algrenewcommand\algorithmicrepeat{\textbf{Повторять}}
+	\algrenewcommand\algorithmicuntil{\textbf{Пока выполняется}}
+	\algrenewcommand\algorithmicend{\textbf{Конец}}
+	\algrenewcommand\algorithmicif{\textbf{Если}}
+	\algrenewcommand\algorithmicelse{\textbf{иначе}}
+	\algrenewcommand\algorithmicthen{\textbf{тогда}}
+	\algrenewcommand\algorithmicfor{\textbf{Для}}
+	\algrenewcommand\algorithmicforall{\textbf{Выполнить для всех}}
+	\algrenewcommand\algorithmicfunction{\textbf{Функция}}
+	\algrenewcommand\algorithmicprocedure{\textbf{Процедура}}
+	\algrenewcommand\algorithmicloop{\textbf{Зациклить}}
+	\algrenewcommand\algorithmicreturn{\textbf{Возвратить}}
+	\algrenewtext{EndWhile}{\textbf{Конец цикла}}
+	\algrenewtext{EndLoop}{\textbf{Конец зацикливания}}
+	\algrenewtext{EndFor}{\textbf{Конец цикла}}
+	\algrenewtext{EndFunction}{\textbf{Конец функции}}
+	\algrenewtext{EndProcedure}{\textbf{Конец процедуры}}
+	\algrenewtext{EndIf}{\textbf{Конец условия}}
+	\algrenewtext{EndFor}{\textbf{Конец цикла}}
+	\algrenewtext{BeginAlgorithm}{\textbf{Начало алгоритма}}
+	\algrenewtext{EndAlgorithm}{\textbf{Конец алгоритма}}
+	\algrenewtext{BeginBlock}{\textbf{Начало блока. }}
+	\algrenewtext{EndBlock}{\textbf{Конец блока}}
+	\algrenewtext{ElsIf}{\textbf{иначе если }}
+		
+\algloop{description}
+	\algnewcommand\algorithmicdescription{\textbf{Описание алгоритма}}
+\renewcommand{\listalgorithmname}{Список алгоритмов}
+%\renewcommand{\@biblabel}[1]{#1.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55555
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+
+\makeatletter
+
+\setbeamercolor*{structure}{bg=sfugrey, fg=black}
+
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=sfugreydark}
+\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=sfugrey!75}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=sfugrey!50!black}
+\setbeamercolor*{palette quaternary}{fg=white,bg=sfugrey!50!white}
+
+
+\setbeamercolor*{sidebar}{use=structure,bg=structure.fg}
+  
+\setbeamercolor*{palette sidebar primary}{use=structure,fg=structure.fg!10}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{use=structure,fg=structure.fg!50}
+\setbeamercolor*{palette sidebar quaternary}{fg=white}
+
+
+% Logo to use in the alternative title page.
+\def\beamer@fancy@titlepagelogo{}
+\DeclareOptionBeamer{titlepagelogo}{\def\beamer@fancy@titlepagelogo{#1}}
+% Colors.
+%\setbeamercolor*{title page header}{parent=sfugreydark}
+\setbeamercolor*{lineup}{parent=palette quaternary}
+\setbeamercolor*{linemid}{parent=palette secondary}
+\setbeamercolor*{linebottom}{parent=palette tertiary}
+\setbeamercolor*{title page header}{parent=palette primary}
+
+% Lengths.
+\newlength{\beamer@fancy@lineup}
+\setlength{\beamer@fancy@lineup}{.025\paperheight}
+\newlength{\beamer@fancy@linemid}
+\setlength{\beamer@fancy@linemid}{.015\paperheight}
+\newlength{\beamer@fancy@linebottom}
+\setlength{\beamer@fancy@linebottom}{.01\paperheight}
+
+% Margins.
+\newlength{\beamer@fancy@normalmargin}
+\setlength{\beamer@fancy@normalmargin}{.06\paperwidth}
+\setbeamersize{text margin left=\beamer@fancy@normalmargin}
+\setbeamersize{text margin right=\beamer@fancy@normalmargin}
+\setlength\leftmargini{.6\beamer@fancy@normalmargin}
+\setlength\leftmarginii{.6\beamer@fancy@normalmargin}
+\setlength\leftmarginiii{.6\beamer@fancy@normalmargin}
+
+\setbeamertemplate{title page}{
+  {\parskip0pt\offinterlineskip%
+  \hbox{\hskip-\Gm@lmargin\hbox{\vbox{%
+  \@tempdima=\textwidth\textwidth=\paperwidth\hsize=\textwidth\def\\{,}\vbox{}\vskip-1.5ex%
+    % Title.
+    \begin{beamercolorbox}[wd=\paperwidth,ht=.4\paperheight,center]{title page header}
+      \usebeamerfont{title}\inserttitle\par%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+      \vspace{.125\paperheight}%
+    \end{beamercolorbox}%
+    \vbox{}\vskip-\beamer@fancy@lineup%
+    \vbox{}\vskip-\beamer@fancy@linemid%
+    % First line.
+    \hbox{%
+    \begin{beamercolorbox}[wd=.2\paperwidth,ht=\beamer@fancy@lineup,dp=0pt]{}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.8\paperwidth,ht=\beamer@fancy@lineup,dp=0pt]{lineup}%
+    \end{beamercolorbox}%
+    }%
+    \vbox{}\vskip0ex%
+    % Second line.
+    \hbox{%
+    \begin{beamercolorbox}[wd=.1\paperwidth,ht=\beamer@fancy@linemid,dp=0pt]{}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.9\paperwidth,ht=\beamer@fancy@linemid,dp=0pt]{linemid}%
+    \end{beamercolorbox}%
+    }%
+    % Third line.
+    \hbox{%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=\beamer@fancy@linebottom,dp=0pt]{}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=\beamer@fancy@linebottom,dp=0pt]{linebottom}%
+    \end{beamercolorbox}%
+    }%
+    \vskip0pt%
+  }}%
+  \hskip-\Gm@rmargin%
+  }}\hfil%
+  %
+  \begin{columns}
+          \column{.5\textwidth}
+              % Logo.
+              \begin{centering}
+                  %\vbox{}\vfill
+                  \includegraphics[height=.4\paperheight]{logo_vertical}
+                  \vfill
+              \end{centering}
+          \column{.5\textwidth}
+         \begin{centering}
+                  %\vbox{}\vfill
+                  \includegraphics[height=.3\paperheight]{logoIM}
+                  \vfill
+              \end{centering}
+          \vskip1em\par
+          \begin{beamercolorbox}[sep=8pt,center]{author}
+            \usebeamerfont{author}\insertauthor
+          \end{beamercolorbox}
+          \begin{beamercolorbox}[sep=8pt,center]{institute}
+            \usebeamerfont{institute}\insertinstitute
+          \end{beamercolorbox}
+          %\begin{beamercolorbox}[sep=8pt,center]{date}
+           % \usebeamerfont{date}\insertdate
+          %\end{beamercolorbox}\vskip0.5em
+          %{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+  \end{columns}
+}
+
+
+
+%\logo{\includegraphics{logo_vertical}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\makeatother
+
+\captionsetup{figurename=Рисунок}
+\captionsetup{tablename=Таблица }
+
+
+\usefonttheme[onlymath]{serif}
+%\usetheme[height=0.8cm, numbers, totalnumbers]{Rochester}
+
+\setbeamersize{text margin left=0.45cm, text margin right=0.45cm}
+
+
+
+\usecolortheme[RGB={230,110,36}]{structure}
+
+\setbeamercolor{footlinecolor}{fg=black,bg=sfugrey}
+\setbeamercolor{footlinecolordark}{fg=white,bg=sfugreydark}
+
+\setbeamercolor{caption name}{fg=sfugreydark}
+
+\setbeamercolor{frametitle}{bg=sfugreydark}%sfuorange}
+\setbeamercolor{frametitle}{fg=white}
+
+\setbeamercolor{block title}{bg=sfugreydark, fg=white}
+%\setbeamercolor{block body}{bg=sfugrey, fg=black}
+
+%\setbeamercolor{alertblock title}{bg=sfuorange, fg=white}
+
+\setbeamercolor{block title example}{bg=sfugreydark, fg=white}
+\setbeamercolor{block body example}{bg=white!100!sfuorange,fg=sfugreydark!25!black}
+
+
+\setbeamercolor{block title alerted}{bg=sfuorange, fg=white}
+\setbeamercolor{block body alerted}{bg=white!90!sfuorange,fg=sfugreydark!25!black}
+
+
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamerfont{author}{size=\large}
+\setbeamerfont{date}{size=\footnotesize}
+
+%\usecolortheme{seahorse}%%{beaver}%{dolphin}%{whale}%{wolverine}{beaver}{crane}
+\usefonttheme[onlymath]{serif}
+\usefonttheme{structurebold}%{serif}%{structuresmallcapsserif}%{structureitalicserif}%{professionalfonts}
+\useinnertheme[shadow]{rounded}
+\setbeamertemplate{footline}
+{%
+ \leavevmode%
+    \hbox{%
+		        \begin{beamercolorbox}[wd=.6\paperwidth,ht=3ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil, center]{footlinecolor}%
+        						 \usebeamerfont{title in head/foot}\insertshorttitle
+ 												\end{beamercolorbox}
+        \begin{beamercolorbox}[wd=.4\paperwidth,ht=3ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{footlinecolordark}%
+            \usebeamerfont{title in head/foot}%\insertshorttitle
+					 \insertshortauthor \hfill \insertframenumber{}/\inserttotalframenumber
+        \end{beamercolorbox}}%
+    \vskip0pt%
+}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
+\renewcommand\baselinestretch{1.1}
+\setbeamertemplate{enumerate items}[\insertenumlabel]
+
+
+% Items.
+\defbeamertemplate{itemize item}{squarealt}%
+{\tiny\raise.5ex\hbox{\donotcoloroutermaths$\blacksquare$}}
+\defbeamertemplate{itemize subitem}{squarealt}%
+{\tiny\raise.4ex\hbox{\donotcoloroutermaths$\square$}}
+\defbeamertemplate{itemize subsubitem}{squarealt}%
+{\tiny\raise.3ex\hbox{\donotcoloroutermaths$\blacksquare$}}
+
+%\renewcommand{\labelitemi}{--}
+\newcommand{\specialcell}[2][l]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+\newenvironment<>{varblock}[2][.9\textwidth]{%
+  \setlength{\textwidth}{#1}
+  \begin{actionenv}#3%
+    \def\insertblocktitle{#2}%
+    \par%
+    \usebeamertemplate{block begin}}
+  {\par%
+    \usebeamertemplate{block end}%
+  \end{actionenv}}
+
+
+  \title[ИТММ'21\qquad ЗАДАЧА MARL  ДЛЯ СЕТИ СВЕТОФОРОВ]{ИТММ'21\qquad ЗАДАЧА MARL  ДЛЯ СЕТИ СВЕТОФОРОВ}
+\author[Тисленко~Т.\,И., Семенова~Д.\,В.]{\large Солдатенко~А.\,А., Семенова~Д.\,В.}
+
+\date{2021}
+
+\newcommand\xrsquigarrow[1]{%
+    \mathrel{%
+        \begin{tikzpicture}[%
+            baseline={(current bounding box)}
+            ]
+        \node[%
+            ,inner sep=.44ex
+            ,align=center,
+            ] (tmp) {$\scriptstyle #1$};
+        \path[%
+            ,draw,<-
+            ,decorate,decoration={%
+                ,zigzag
+                ,amplitude=0.7pt
+                ,segment length=1.2mm,pre length=3.5pt
+                }
+            ] 
+        (tmp.north east) -- (tmp.north west);
+        \end{tikzpicture}
+        }
+    }
+\newcommand\xlsquigarrow[1]{%
+    \mathrel{%
+        \begin{tikzpicture}[%
+            ,baseline={(current bounding box.south)}
+            ]
+        \node[%
+            ,inner sep=.44ex
+            ,align=center
+            ] (tmp) {$\scriptstyle #1$};
+        \path[%
+            ,draw,<-
+            ,decorate,decoration={%
+                ,zigzag
+                ,amplitude=0.7pt
+                ,segment length=1.2mm,pre length=3.5pt
+                }
+            ] 
+        (tmp.south west) -- (tmp.south east);
+        \end{tikzpicture}
+        }
+    }
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+
+%\frame{\titlepage}
+%\frame{\tableofcontents[currentsubsection]}
+
+%-1---------------------- Титульный --------------------------------------
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{2}}%
+\begin{frame}[plain]
+  \vspace*{3cm}
+
+\begin{center}
+
+
+\vspace*{2cm}
+
+{\huge {ЗАДАЧА MARL  ДЛЯ СЕТИ СВЕТОФОРОВ
+}}
+
+\bigskip
+
+{\Large Т.\,И.~Тисленко, Д.\,В.~Семенова}
+
+{\large Сибирский федеральный университет}
+
+timtisko@mail.ru, DVSemenova@sfu-kras.ru
+\end{center}
+
+\bigskip
+\begin{flushright}
+  
+
+
+\end{flushright}
+\bigskip
+
+\bigskip
+
+
+
+
+
+
+ 
+
+
+
+
+\end{frame}
+
+\usebackgroundtemplate{}%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	\frametitle{Актуальность}
+    \justifying
+    \begin{block}{Проблема}\justifying
+      оптимизации планов координации светофорных объектов в условиях городской сети.
+    \end{block}
+				        \begin{figure}[h!]
+            \includegraphics[height=0.6\textheight]{images/jams.png}
+            \caption{Пробки в Красноярске}
+          \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \frametitle{Существующие модели адаптивных систем светофоров}
+    \justifying
+    \begin{table}
+           \caption{Модели адаптивных систем светофоров}
+      \begin{tabular}{||c||c|c|c|c|c|}\hline
+        \textbf{Критерий}    & \textbf{UTCS-1}  & \textbf{SCOOT}    & \textbf{OPAC}   & \textbf{MARL}         \\ \hline
+        город      & Вашингтон     & Лондон &   \specialcell{Арлингтон,\\ Тускон} & Торонто \\ \hline
+        \specialcell{временной\\ период} &1970е&1995&1983,1989& 2010\\ \hline
+        \specialcell{длительность \\фаз} & \multicolumn{2}{|c|}{фиксированная}  & \multicolumn{2}{|c|}{переменная}       \\ \hline
+        оптимизация & офлайн  & \multicolumn{3}{|c|}{онлайн}       \\ \hline
+        предсказание & нет  & \multicolumn{2}{|c|}{есть} &нет      \\ \hline
+        устройство & \multicolumn{2}{|c|}{централизованная}  & \multicolumn{2}{|c|}{децентрализованная}      \\ \hline
+        \specialcell{основные \\ ограничения}   & \specialcell{постоянный \\сбор данных} & \specialcell{сенсоры \\далеко} & \specialcell{только для\\  8 фаз}& <<ПРОКЛЯТИЕ РАЗМЕРНОСТИ>> \\ \hline
+      \end{tabular}
+     \end{table}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \frametitle{Цели и задачи}
+    \justifying
+    \begin{block}{Цель работы}
+        \justifying
+        Разработка и исследование математической модели мультиагентной системы для задачи координации светофорных объектов в транспортной сети мегаполиса.
+    \end{block}
+
+    %\pause
+
+    \begin{block}{Задачи}
+        \begin{enumerate} \justifying
+            \item Построить математическую модель MARL для сети двухфазных светофоров.
+            \item Разработать алгоритм решения задачи MARL.
+            \item Провести вычислительные эксперименты для одного и двух светофоров.
+        \end{enumerate}
+    \end{block}
+
+  \end{frame}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \justifying
+  \frametitle{Основные определения и обозначения}
+  \begin{table}
+	  \caption{Основные обозначения}
+    \begin{tabular}{||c||l|} \hline
+      $K$                     & число агентов                \\\hline
+      $k$                     & номер агента                \\\hline
+      $S^k$                   & пространство состояний для $k$-го агента     \\\hline
+      $A^k$                   & множество решений   для $k$-го агента        \\\hline
+
+      $\textbf{s}_t$          & совокупное состояние среды в момент времени $t$                                           \\\hline
+      $\textbf{a}_t$          & совокупное управление в момент времени $t$                                                   \\\hline
+
+      $r(s_t, a_t; s_{t+1})$  & время, подсчитанное для машин двигающихся на фазе $s_{t+1}$                                     \\\hline
+
+      $N(k)$                  & множество соседних с $k$ агентов                                               \\\hline
+      $\textbf{s}^{kj}$       & совместные состояния агентов    $k$ и $j$                                            \\\hline
+      $\textbf{a}^{kj}$       & совместные действия агентов $k$ и $j$                                             \\\hline
+      $ V\Bigl(\{S_t, \delta\}\Bigr)$ & функция суммарных доходов/вознаграждений для $K$ агентов                                        \\\hline
+
+    \end{tabular}
+  \end{table}
+  
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[shrink]
+\justifying
+\frametitle{Основные определения и обозначения}
+
+    \begin{block}{Для  $k$-го агента }
+        \begin{itemize} \justifying    
+            \item $S^k$ определяются классом вычетов по модулю $$S^k = n^{(k)}\mathbb{Z}  = \left\{s^{(0)} = 0, s^{(1)} = 1, \ldots, s^{\left(n^{(k)}-1\right)} = n^{(k)}-1\right\}, \quad n^{(k)}=|S^k|,$$  где  $s^{(i)}$ интерпретируется как <<активна фаза $i$>>;
+            \item $A^k$ определяется характеристикой кольца $n^{(k)}\mathbb{Z}$, т.е. не превыщает ее,\linebreak
+            $A^k =\left\{a^{(0)} = 0, a^{(1)} = 1, \ldots, a^{(n^{(k)}-1)} = n^{(k)}-1 \right\}$, где $a^{(j)}$ интерпретируется как       <<сменить фазу $j$ раз>>. 
+        \end{itemize}
+    \end{block}
+
+      \begin{block}{В момент времени $t$}
+        \begin{itemize} \justifying    
+            \item  $\textbf{s}_t = \{s_t^1, s_t^2, \ldots, s_t^K\}\in {\cal S}=S^1\times S^2\times\ldots\times S^K$;
+            \item $\textbf{a}_t = \{a_t^1, a_t^2, \ldots, a_t^K\} \in  {\cal A}=A^1\times A^2\times\ldots\times A^K$; 
+            \item $\textbf{a}^{kj} \in A^k\times A^j$ и $\textbf{s}^{kj} \in S^k\times S^j$;   
+            \item $\displaystyle V\Bigl(\{\textbf{s}_t, \delta\}\Bigr) = \sum\limits_{t=0}^{\infty}\gamma^t r(\textbf{s}_t,\textbf{a}_t)$, где $0 \leq \gamma \leq 1$ --- коэффициент переоценки, $\{\textbf{s}_t\}$ --- реализация случайного процесса %$\xi(t)$ 
+            при выбранной стратегии $\delta =\{\textbf{a}_t, 0\leq t<\infty\}$.   
+        \end{itemize}
+    \end{block}
+
+
+  
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\justifying
+\frametitle{Постановка задачи MARL}
+
+
+\begin{figure}[h!]
+    %\centering
+    \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=3cm,
+    semithick]
+\tikzstyle{every state}=[draw,text=black]
+
+\node[state] (A)  {$s^{(0)}$};
+\node[state] (B) [right of=A] {$s^{(1)}$};
+
+
+\path (A) edge[bend right] node {$p_{01}$} (B);
+\path (B) edge[bend right] node {$p_{10}$} (A);
+\path (A) edge[loop left, dashed] node {$p_{00}$} (A);
+\path (B) edge[loop right, dashed] node {$p_{11}$} (B);
+\end{tikzpicture}
+\includegraphics[width =0.3\textwidth]{images/intersection1.png}
+    \caption{Стохастический граф управляемого процесса смены фаз для двухфазного светофора и его визуальная интерпретация.  Пунктиром обозначено действие $a^{(0)}$, а сплошной --- $a^{(1)}$}
+    \label{fig:stohgraph}
+\end{figure}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \justifying
+    \frametitle{Постановка задачи}
+    
+    
+    \begin{figure}[h!]
+        %\centering
+        %\includegraphics[width =0.2\textwidth]{images/intersection2.png}
+        \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=3.8cm,
+          semithick, scale=0.1]
+      \tikzstyle{every state}=[draw,text=black]
+      
+      \node[state] (s0)  {$s_{0}$};
+      \node[state] (s1) [right of=s0] {$s_{1}$};
+      \node[state] (s2) [below  of=s0] {$s_{2}$};
+      \node[state] (s3) [below  of=s1] {$s_{3}$};
+      
+      \path (s0) edge[sloped,midway,above, bend left] node {$p_{01}, a^{(1)}$} (s1);
+      \path (s1) edge[sloped,midway,above] node {$p_{10}, a^{(1)}$} (s0);
+      
+      \path (s2) edge[sloped,midway,above, bend left] node {$p_{20}, a^{(2)}$} (s0);
+      \path (s0) edge[sloped,midway,below] node {$p_{02}, a^{(2)}$} (s2);
+      
+      
+      \path (s1) edge[sloped,midway,above, bend left] node {$p_{13}, a^{(2)}$} (s3);
+      \path (s3) edge[sloped,midway,above] node {$p_{31}, a^{(1)}$} (s1);
+      %\path (s1) edge[sloped,midway,above, bend left= 320] node {$p_{12}, a^{(3)}$} (s2);
+      
+      \path (s2) edge[sloped,midway,below] node {$p_{23}, a^{(1)}$} (s3);
+      \path (s3) edge[sloped,midway,below,bend left] node {$p_{32}, a^{(1)}$} (s2);
+      
+      \path (s0) edge[sloped,midway,above, bend left] node {$p_{03}, a^{(3)}$} (s3);
+      \path (s3) edge[sloped,midway,below, bend left] node {$p_{30}, a^{(3)}$} (s0);
+      
+      \path (s2) edge[sloped,midway,above,dashed, bend left] node {$p_{21}, a^{(3)}$} (s1);
+      \path (s1) edge[sloped,midway,below,dashed, bend left] node {$p_{12}, a^{(3)}$} (s2);
+      
+      
+      %\path (s2) edge[sloped,midway,above, bend below of =s3] node {$p_{21}, a^{(3)}$} (s1);
+      
+      \path (s0) edge[loop left, dashed] node {$p_{00}, a^{(0)} $} (s0);
+      \path (s1) edge[loop right, dashed] node {$p_{00}, a^{(0)}$} (s1);
+      \path (s2) edge[loop left, dashed] node {$p_{00}, a^{(0)}$} (s2);
+      \path (s3) edge[loop right, dashed] node {$p_{00}, a^{(0)}$} (s3);
+      
+      %\path (s1) edge[loop right, dashed] node {$p_{11}$} (s1);
+      \end{tikzpicture}
+        \includegraphics[scale=0.2]{images/intersection2.png}
+        \caption{Стохастический граф сети из двух двухфазных светофоров}
+        \label{fig:stohgraph3}
+      \end{figure}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\justifying
+\frametitle{Задача MARL для сети светофоров}
+    \begin{block}{Постановка задачи MARL для сети светофоров}\justifying
+        Требуется найти такое управление $\delta=\{\textbf{a}_t, 0\leq t<\infty\}$, которое доставляет максимум функции суммарных вознаграждений для $K$ агентов 
+        $$
+\displaystyle V\Bigl(\{\textbf{s}_t, \delta\}\Bigr) = \sum\limits_{t=0}^{\infty}\gamma^t r(\textbf{s}_t,\textbf{a}_t) \rightarrow \max,$$ где $0 \leq \gamma \leq 1$ --- коэффициент переоценки, $\{\textbf{s}_t\}$ --- реализация случайного процесса.
+            \end{block}
+   Решение ищется методом динамического программирования на основе принципа оптимальности Беллмана.
+   Функцию суммарных вознаграждений при оптимальном управлении на шаге $t$: 
+    \begin{equation}
+        V^*(\{\textbf{s}_{t'}\}_{t'=0}^{t'=t})=\max\limits_{\textbf{a}\in{\cal A}} Q_t(\textbf{s}_t, \textbf{a}), 
+    \end{equation}
+где 
+    \begin{equation}
+        Q_t(\textbf{s}_t, \textbf{a})  =    \sum\limits_{\textbf{s}_{t+1}\in {\cal S}} p(\textbf{s}_t,\textbf{a};\textbf{s}_{t+1})\Bigl(r(\textbf{s}_t,\textbf{a};\textbf{s}_{t+1})+\gamma \max\limits_{\textbf{a}' \in {\cal A}}Q_{t-1}(\textbf{s}_{t+1},\textbf{a}') \Bigr).
+    \end{equation}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\justifying
+\frametitle{Решение задачи MARL для двух светофоров}
+   
+	 \begin{itemize}
+		 \item Множество соседних агентов $N(k) = \{j\}$, $k\ne j$, $k,j =0, 1$.
+		\item Функция обучения  агента $k$
+		    \begin{equation}
+        Q_t^{k}(\textbf{s}_t,a^k_t)= \sum\limits_{a_j \in A^j} \underbrace{p(a^k_t;\textbf{a}^{kj}_t)Q_t(\textbf{s}_t,\textbf{a}^{kj}_t)}_{  Q^{kj}_t(\textbf{s}_t,\textbf{a}^{kj}_t) }
+				= \sum\limits_{a^j \in A^j} Q_t^{kj}(\textbf{s},\textbf{a}^{kj}_t).
+    \end{equation}
+	 \end{itemize}
+  \begin{multline}
+    Q_t^{k}(\textbf{s}_t,a^k_t)= \sum\limits_{a_j \in A^j} p(a^k_t;\textbf{a}^{kj}_t) \left( \sum\limits_{\textbf{s}_{t+1}\in {\cal S}} p(\textbf{s}_t,\textbf{a}^{kj}_t;\textbf{s}_{t+1})\Bigl(r(\textbf{s}_t,\textbf{a}^{kj}_t;\textbf{s}_{t+1})+\gamma \max\limits_{\textbf{a}' \in {\cal A}}Q_{t-1}(\textbf{s}_{t+1},\textbf{a}') \Bigr)\right) = \\
+    = \sum\limits_{\textbf{s}_{t+1}\in {\cal S}} \sum\limits_{a_j \in A^j}  p(\textbf{s}_t,a^k_t;\textbf{s}_{t+1}) \Bigl( r(\textbf{s}_t,\textbf{a}^{kj}_t;\textbf{s}_{t+1}) +\gamma \max\limits_{\textbf{a}' \in {\cal A}}Q_{t-1}(\textbf{s}_{t+1},\textbf{a}')\Bigr).
+  \end{multline}
+\begin{block}{Оптимальное решение для агента $k$ на шаге $t$}
+    \begin{equation}
+        a_t^k = \arg  \max\limits_{a^k \in A^k} \sum\limits_{a^j \in A^j} Q_t^{kj}(\textbf{s},\textbf{a}^{kj}).
+    \end{equation}
+ \end{block}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\justifying
+\frametitle{Решение задачи MARL для сети светофоров}
+\begin{alertblock}{}
+    Имея алгоритм решения задачи для двух светофоров, можно получить решение для любого их количества в сети. 
+  \end{alertblock}  
+    
+		\begin{block}{Алгоритм MARLIN: основная идея}
+    Оптимальное управление для фиксированного агента $k$ будем искать как решение задачи MARL в виде:
+   \begin{equation} 
+	a_t^k = \arg\max_{a^k \in A^k} \sum\limits_{j\in N(k)} \sum\limits_{a^j \in A^j} Q^{kj}_t( \textbf{s}, \textbf{a}^{kj}) p(\textbf{s}'| (\textbf{s},\textbf{a}^{kj}))
+	   \end{equation}
+		\end{block}
+		
+		\footnotesize{El-Tantawy S., Abdulhai B. and Abdelgawad H., Multiagent Reinforcement Learning for Integrated Network of Adaptive Traffic Signal Controllers (MARLIN-ATSC) // IEEE Transactions on Intelligent Transportation Systems, vol. 14, no. 3. 2013. --- P. 1140-1150.}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{frame}
+% \frametitle{Алгоритм}
+% \justifying
+
+% \begin{figure}[h!]
+%     \centering
+        
+%         \includegraphics[scale = 0.5]{images/blol.png}
+%         \label{fig:block}
+%         \caption{4. Блок-схема алгоритма}
+% \end{figure}
+
+% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Вычислительные эксперименты}
+    \justifying
+    Вычислительные эксперименты проводились в системе имитационного моделирования Anylogic. Алгоритмы реализованы на языке программирования Java 8. Построены модели перекрестка с фиксированной длительностью фаз (рис. 4а) и управляемого марковским процессом (рис. 4б).
+
+    \begin{figure}[h!]
+    
+        \includegraphics[width =0.45\textwidth]{images/fixed.png}
+        \includegraphics[width =0.4\textwidth]{images/vary.png}\label{fixed_vary}
+				
+				\hfill а) \hfill б) \hfill
+				
+        \caption{a) модель перекрестка c фиксированной длительностью фаз, б) модель перекрестка управляемого марковским процессом}
+    \end{figure}
+
+\end{frame}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Основные результаты работы}
+\justifying
+
+\begin{figure}[h!]
+    
+    \includegraphics[width =1\textwidth]{images/7.png}
+    \caption{Сравнение задержки $TIMESUMM$}
+\end{figure}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}\frametitle{Основные результаты}
+\justifying
+
+\begin{itemize}
+	\item Построена математическая модель процесса выбора фазы для сети светофоров, отличающаяся учетом текущего расположения светофоров и их загрузки и позволяющая сформулировать оптимизационные задачи, целью которых является минимизация задержки трафика автомобилей.
+	\item Разработана структура мультиагентной системы --- сети сфетофоров участка дороги.
+	\item Проведены вычислительные эксперименты  в системе имитационного моделирования Anylogic для одного и двух сфетофоров.
+\end{itemize}	
+
+\end{frame}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}\frametitle{Перспективы исследования}
+\justifying
+\begin{figure}[h!]
+    
+    \includegraphics[width =0.5\textwidth]{images/set.png}
+    \caption{Карта перекрестков, предоставленная УДиБ г. Красноярска}
+\end{figure}
+
+
+\end{frame}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}\frametitle{Перспективы исследования}
+\justifying
+
+\begin{figure}[h!]
+    
+    \includegraphics[width =0.5\textwidth]{images/Sv-G.png}
+    \caption{Модель перекрестка проспект Свободный -- ул. Годенко}
+\end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Основная литература}\justifying
+    \begin{thebibliography}{9}
+        \bibitem{BOOK1}\label{IEE}
+			El-Tantawy S., Abdulhai B. and Abdelgawad H., Multiagent Reinforcement Learning for Integrated Network of Adaptive Traffic Signal Controllers (MARLIN-ATSC) // IEEE Transactions on Intelligent Transportation Systems, vol. 14, no. 3. 2013. --- P. 1140-1150.
+        \bibitem{BOOK2}
+				Лекции по случайным процессам: учебное пособие / А. В. Гасников, Э. А. Горбунов, С. А. Гуз и др.; под ред. А. В. Гасникова. -- «Москва»: МФТИ, 2019. --- 285 с. 
+        \bibitem{BOOK3}
+            Марковские процессы принятия решений. / Майн X., Осаки С. Главная редакция физико-математической литературы издательства «Наука», 1977. --- 176 с. 
+        \bibitem{BOOK4}
+            Sandholm T.W. Contract Types for Satisficing Task Allocation: I Theoretical Results // AAAI Spring Symposium Series: Satisficing Models. 1998. --- P. 68-75.
+        \bibitem{BOOK5}
+        Управляемые марковские процессы с конечными пространствами состояний и управлений, Теория вероятностей и ее примен, Том 11. /В. В. Рыков. 1966. --- 343-351 с. 
+        %
+    \end{thebibliography}
+\end{frame}
+
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{2}}%
+  \begin{frame}
+    \justifying
+    \vspace*{2.5cm}
+    \begin{center}
+    \huge\bf Спасибо за внимание!
+    \end{center}
+  \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+\begin{block}{Пример: дорожная ситуация (рис.2) }\justifying
+    \footnotesize{
+    $t = 0$, $s_0 = 0$ (для дороги 0).
+    Коричневый седан на дороге 0 и едет 2с.  Красные машины на 1 стоят 5с. $r(s_0=0, a_0 = 0) = 2$ и $r(s_0=0, a_0 = 1) = 10$ --- вознаграждения.
+    $Q_0(s_0,a) = (1 - \alpha)\cdot 0 + \alpha(r(s_0,a)+ \gamma \cdot 0). Q_0(0,0) = 2 \alpha, Q_0(0,1) = 5 \alpha.$
+    Выбирается действие $a_0 = 1$.
+    $t = 1$, $s_0 = 1$. $r(1, 0) = 0$ и $r(1, 1) = 7$
+    $Q_1(1,0) = (1-\alpha)\cdot 10+ \alpha (0 + 10) =  10(1-\alpha) + 10\alpha\gamma,
+    Q_1(1,1) = (1-\alpha)\cdot 5+ \alpha (5 + \gamma 10) =  2(1-\alpha) + 15\alpha\gamma$
+    В работе подобраны коэффициенты $\alpha = 0.5, \gamma = 0.8$ 
+    $Q_1(1,0) = 0.5 \cdot 5 + 0.5 \cdot 0.8 \cdot 5 = 4.5, Q_1(1,1) = 0.5 \cdot 2 + + 0.5 \cdot (7 + 0.8 \cdot 5 ) = 6.5$
+    Выбирается действие $a_1 = 1$.
+    }
+\end{block}
+
+\begin{frame}
+  \justifying
+  \frametitle{Задача MARL для одного светофора}
+      \begin{block}{Постановка задачи MARL для одного светофора}\justifying
+          Требуется найти такое управление $\delta$, которое доставляет максимум функции 
+          $$
+          V\Bigl(\{S_t, \delta\}\Bigr),
+          $$
+          где функция на каждом шаге $t$ может быть определена для $s = S_t$
+          \begin{equation}
+              V^*(s)=\max\limits_a Q(s, a), 
+          \end{equation}
+          а $Q(s, a)$, есть функция
+          \begin{equation}
+              Q(s,a)  =  \sum_{s'\in S} p(s,a;s')\bigl(r(s,a;s')+\gamma \max_{a \in A}Q(s',a') \bigr).
+          \end{equation}
+          \end{block}
+  
+      
+    \end{frame}
+  
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{frame}
+  \frametitle{Критерий сходимости}
+  \justifying
+  
+      Идея $Q$-обучения заключается в оценке невычислимой правой части:
+      \begin{equation} \label{Qiteration}
+          Q_{t+1}(s, a) =  Q_t(s, a) + \alpha _t (s, a) \left(r(s, a) +  \gamma \max_{a'\in A}  Q_t(s', a') - Q_t(s, a)\right)
+      \end{equation}
+      где $s'$ --- положение процесса на шаге $t+1$, если на шаге $t$ процесс был в состоянии $s$ и было выбрано действие $a$,
+      $\alpha$ --- коэффициент скидки.
+  
+      Если на шаге $t$ процесс находился в состоянии $s$ и было выбрано действие $a$, то $0 \leq \alpha _t(s, a) \leq 1$, иначе $\alpha _t(s, a) = 0$.
+  
+  
+  \end{frame}
+  
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{frame}
+  \frametitle{Критерий сходимости}
+  \justifying
+      
+    $Q = \{ Q(s, a)\}_{s \in S, a' \in A}$ , можно записать итеративно $Q_{t+1} = A(Q_t)$, 
+      
+      где $A \colon \mathbb{R} _{\infty}^1 \to  \mathbb{R} _{\infty}^1$ --- сжимающее отображение.
+      \begin{multline*}
+      \rho ((A \circ Q_1)(s, a), (A \circ Q_2)(s, a)) % = \\
+       %   = \max_{a'\in A, s'\in S}| \sum_{s'\in S}  p(s, a; s')(r(s, a) + \gamma \max_{a'\in A}  Q_1(s', a')) - \\
+     %  - \sum_{s'\in S}  p(s, a; s')(r(s, a) + \gamma \max_{a'\in A}  Q_2(s', a'))|  
+      \leq  \max |\gamma \max_{a'\in A}  Q_1(s', a')) - \gamma \max_{a'\in A}  Q_2(s', a'))| = \\
+          = 	\gamma \rho (Q_1(s, a), Q_2(s, a)) ,  \gamma \in (0; 1)
+      \end{multline*}
+  
+      \begin{block}{Критерий сходимости задачи}
+          Если стратегия $a(\cdot )$ приводит к тому, что с вероятностью 1 каждая пара $(s, a)$ бесконечное число раз встречается,
+           то из условия сжимаемости при
+      \begin{equation}
+          \sum _{t=0} ^\infty {\alpha _t (s, a)} = \infty, \qquad
+          \sum _{t=0} ^\infty {\alpha _t (s, a)^2} \leq \infty
+      \end{equation}
+      cледует сходимость процесса (\ref{Qiteration})
+      \end{block}
+    
+  
+  \end{frame}
+  
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+  \begin{frame}
+  \frametitle{Критерий сходимости}
+  \justifying
+  
+      Решение задачи MARL для одного светофора имеет вид:
+      \begin{equation}
+        V ^*(s) = \max_{a\in A}  \lim _{t \to + \infty}Q_t(s, a).
+      \end{equation}
+      \begin{equation}
+        a_t(s) = \arg  \max_{a' \in A} Q_t(s, a')
+      \end{equation}	
+      
+  \end{frame}
+  
+
+  
+\end{document}
+
