@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.5)  19 DEC 2021 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.5)  19 DEC 2021 21:47
 entering extended mode
 **d:/desktop/ПРЕЗЕНТАЦИЯ/отчет_НИР/Otchet_NIR_Tislenko.tex
 (d:/desktop/ПРЕЗЕНТАЦИЯ/отчет_НИР/Otchet_NIR_Tislenko.tex
@@ -1625,11 +1625,16 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [13
 
 ]
-<images/set.png, id=259, 950.04938pt x 531.48563pt>
-File: images/set.png Graphic file (type png)
-<use images/set.png>
-Package pdftex.def Info: images/set.png  used on input line 742.
-(pdftex.def)             Requested size: 214.81839pt x 120.17111pt.
+<images/dip2.png, id=259, 499.8675pt x 758.08218pt>
+File: images/dip2.png Graphic file (type png)
+<use images/dip2.png>
+Package pdftex.def Info: images/dip2.png  used on input line 744.
+(pdftex.def)             Requested size: 84.98398pt x 128.89233pt.
+<images/dip1.png, id=260, 706.89093pt x 496.85625pt>
+File: images/dip1.png Graphic file (type png)
+<use images/dip1.png>
+Package pdftex.def Info: images/dip1.png  used on input line 744.
+(pdftex.def)             Requested size: 214.81839pt x 150.99127pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [][] 
@@ -1637,12 +1642,12 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 
 [14
 
- <./images/set.png>]
-<images/Sv-G.png, id=267, 749.04843pt x 448.67625pt>
-File: images/Sv-G.png Graphic file (type png)
-<use images/Sv-G.png>
-Package pdftex.def Info: images/Sv-G.png  used on input line 754.
-(pdftex.def)             Requested size: 214.81839pt x 128.67506pt.
+ <./images/dip2.png> <./images/dip1.png>]
+<images/set.png, id=267, 950.04938pt x 531.48563pt>
+File: images/set.png Graphic file (type png)
+<use images/set.png>
+Package pdftex.def Info: images/set.png  used on input line 756.
+(pdftex.def)             Requested size: 214.81839pt x 120.17111pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [][] 
@@ -1650,19 +1655,32 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 
 [15
 
- <./images/Sv-G.png>]
+ <./images/set.png>]
+<images/Sv-G.png, id=275, 749.04843pt x 448.67625pt>
+File: images/Sv-G.png Graphic file (type png)
+<use images/Sv-G.png>
+Package pdftex.def Info: images/Sv-G.png  used on input line 768.
+(pdftex.def)             Requested size: 214.81839pt x 128.67506pt.
+
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [][] 
  []
 
 [16
 
-]
+ <./images/Sv-G.png>]
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [][] 
  []
 
 [17
+
+]
+Overfull \hbox (1.74998pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[18
 
  <C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write7
@@ -1683,17 +1701,17 @@ Package rerunfilecheck Info: File `Otchet_NIR_Tislenko.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 50126 strings out of 481019
- 1198599 string characters out of 2903868
- 1628939 words of memory out of 3000000
- 66242 multiletter control sequences out of 15000+600000
+ 50142 strings out of 481019
+ 1198838 string characters out of 2903868
+ 1628975 words of memory out of 3000000
+ 66254 multiletter control sequences out of 15000+600000
  439771 words of font info for 90 fonts, out of 8000000 for 9000
  198 hyphenation exceptions out of 8191
  112i,15n,131p,790b,1137s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/t2/t2a.enc}<C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/textb19.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/textb20.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/times.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/timesi.pfb>
-Output written on Otchet_NIR_Tislenko.pdf (17 pages, 3107067 bytes).
+Output written on Otchet_NIR_Tislenko.pdf (18 pages, 3851786 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 557 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 567 words of extra memory for PDF output out of 10000 (max. 10000000)
 
