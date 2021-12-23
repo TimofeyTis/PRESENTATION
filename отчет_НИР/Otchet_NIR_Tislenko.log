@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.5)  19 DEC 2021 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.5)  23 DEC 2021 12:01
 entering extended mode
 **d:/desktop/РџР Р•Р—Р•РќРўРђР¦РРЇ/РѕС‚С‡РµС‚_РќРР /Otchet_NIR_Tislenko.tex
 (d:/desktop/РџР Р•Р—Р•РќРўРђР¦РРЇ/РѕС‚С‡РµС‚_РќРР /Otchet_NIR_Tislenko.tex
@@ -1463,25 +1463,25 @@ Overfull \hbox (1.74998pt too wide) in paragraph at lines 400--400
  []
 
 LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <10> not available
-(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <14.4> not available
-(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 437.
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 443.
 LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <20.74> not available
-(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 437.
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 443.
 [1
 
 \openout5 = `Otchet_NIR_Tislenko.upa'.
 
 {C:/Users/TimofeyT/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-<images/jams.png, id=62, 630.85687pt x 322.20375pt>
+<images/jams.png, id=74, 630.85687pt x 322.20375pt>
 File: images/jams.png Graphic file (type png)
 <use images/jams.png>
-Package pdftex.def Info: images/jams.png  used on input line 451.
+Package pdftex.def Info: images/jams.png  used on input line 457.
 (pdftex.def)             Requested size: 317.9112pt x 162.36581pt.
 LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <9> not available
-(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 451.
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 457.
+LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <14.4> not available
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 457.
 LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <4> not available
-(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 451.
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 457.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [][] 
@@ -1497,19 +1497,19 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [3
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 500.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 506.
  (C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 500.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 506.
  (C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 500.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 506.
  (C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for T2A+ftm on input line 500.
+LaTeX Font Info:    Trying to load font information for T2A+ftm on input line 506.
  (C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\tex/latex/pscyr\t2aftm.fd
 File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
 )
@@ -1520,17 +1520,17 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
 []$\T2A/ftm/m/it/10 A[]$ \T2A/ftx/m/n/10 опре-де-ля-ет-ся ха-рак-те-ри-сти-кой коль-ца $\T2A/ftm/m/it/10 n[]\U/msb/m/n/10 Z$\T2A/ftx/m/n/10 , т.е. не пре-вы-ща-ет ее,
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 527--527
+Underfull \hbox (badness 1270) in paragraph at lines 533--533
 \T2A/ftm/m/it/10 A[] \OT1/cmr/m/n/10 = []$\T2A/ftx/m/n/10 , где $\T2A/ftm/m/it/10 a[]$ \T2A/ftx/m/n/10 ин-тер-пре-ти-ру-ет-ся как <<сме-
  []
 
 
-Class beamer Warning: Frame text is shrunk by a factor of 8.72345 percent instead of 0 percent on input line 527.
+Class beamer Warning: Frame text is shrunk by a factor of 8.72345 percent instead of 0 percent on input line 533.
 
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1540,10 +1540,10 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [5
 
 ]
-<images/intersection1.png, id=145, 588.69937pt x 361.35pt>
+<images/intersection1.png, id=157, 588.69937pt x 361.35pt>
 File: images/intersection1.png Graphic file (type png)
 <use images/intersection1.png>
-Package pdftex.def Info: images/intersection1.png  used on input line 556.
+Package pdftex.def Info: images/intersection1.png  used on input line 562.
 (pdftex.def)             Requested size: 128.89233pt x 79.11679pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1553,10 +1553,10 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [6
 
  <./images/intersection1.png>]
-<images/intersection2.png, id=156, 624.83438pt x 904.88063pt>
+<images/intersection2.png, id=168, 624.83438pt x 904.88063pt>
 File: images/intersection2.png Graphic file (type png)
 <use images/intersection2.png>
-Package pdftex.def Info: images/intersection2.png  used on input line 609.
+Package pdftex.def Info: images/intersection2.png  used on input line 615.
 (pdftex.def)             Requested size: 124.96466pt x 180.97292pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1587,15 +1587,15 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [10
 
 ]
-<images/fixed.png, id=233, 498.36188pt x 244.66406pt>
+<images/fixed.png, id=245, 498.36188pt x 244.66406pt>
 File: images/fixed.png Graphic file (type png)
 <use images/fixed.png>
-Package pdftex.def Info: images/fixed.png  used on input line 705.
+Package pdftex.def Info: images/fixed.png  used on input line 711.
 (pdftex.def)             Requested size: 193.33524pt x 94.9146pt.
-<images/vary.png, id=234, 456.20438pt x 249.93375pt>
+<images/vary.png, id=246, 456.20438pt x 249.93375pt>
 File: images/vary.png Graphic file (type png)
 <use images/vary.png>
-Package pdftex.def Info: images/vary.png  used on input line 705.
+Package pdftex.def Info: images/vary.png  used on input line 711.
 (pdftex.def)             Requested size: 171.85208pt x 94.14824pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1605,10 +1605,10 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [11
 
  <./images/fixed.png> <./images/vary.png>]
-<images/7.png, id=244, 575.90157pt x 197.98969pt>
+<images/7.png, id=256, 575.90157pt x 197.98969pt>
 File: images/7.png Graphic file (type png)
 <use images/7.png>
-Package pdftex.def Info: images/7.png  used on input line 719.
+Package pdftex.def Info: images/7.png  used on input line 725.
 (pdftex.def)             Requested size: 429.63678pt x 147.70943pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1625,15 +1625,15 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [13
 
 ]
-<images/dip2.png, id=259, 499.8675pt x 758.08218pt>
+<images/dip2.png, id=271, 499.8675pt x 758.08218pt>
 File: images/dip2.png Graphic file (type png)
 <use images/dip2.png>
-Package pdftex.def Info: images/dip2.png  used on input line 744.
+Package pdftex.def Info: images/dip2.png  used on input line 750.
 (pdftex.def)             Requested size: 84.98398pt x 128.89233pt.
-<images/dip1.png, id=260, 706.89093pt x 496.85625pt>
+<images/dip1.png, id=272, 706.89093pt x 496.85625pt>
 File: images/dip1.png Graphic file (type png)
 <use images/dip1.png>
-Package pdftex.def Info: images/dip1.png  used on input line 744.
+Package pdftex.def Info: images/dip1.png  used on input line 750.
 (pdftex.def)             Requested size: 214.81839pt x 150.99127pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1643,10 +1643,10 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [14
 
  <./images/dip2.png> <./images/dip1.png>]
-<images/set.png, id=267, 950.04938pt x 531.48563pt>
+<images/set.png, id=279, 950.04938pt x 531.48563pt>
 File: images/set.png Graphic file (type png)
 <use images/set.png>
-Package pdftex.def Info: images/set.png  used on input line 756.
+Package pdftex.def Info: images/set.png  used on input line 762.
 (pdftex.def)             Requested size: 214.81839pt x 120.17111pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1656,10 +1656,10 @@ Overfull \hbox (1.74998pt too wide) has occurred while \output is active
 [15
 
  <./images/set.png>]
-<images/Sv-G.png, id=275, 749.04843pt x 448.67625pt>
+<images/Sv-G.png, id=287, 749.04843pt x 448.67625pt>
 File: images/Sv-G.png Graphic file (type png)
 <use images/Sv-G.png>
-Package pdftex.def Info: images/Sv-G.png  used on input line 768.
+Package pdftex.def Info: images/Sv-G.png  used on input line 774.
 (pdftex.def)             Requested size: 214.81839pt x 128.67506pt.
 
 Overfull \hbox (1.74998pt too wide) has occurred while \output is active
@@ -1701,17 +1701,17 @@ Package rerunfilecheck Info: File `Otchet_NIR_Tislenko.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 50142 strings out of 481019
- 1198838 string characters out of 2903868
- 1628975 words of memory out of 3000000
- 66254 multiletter control sequences out of 15000+600000
+ 50148 strings out of 481019
+ 1199103 string characters out of 2903868
+ 1629097 words of memory out of 3000000
+ 66260 multiletter control sequences out of 15000+600000
  439771 words of font info for 90 fonts, out of 8000000 for 9000
  198 hyphenation exceptions out of 8191
  112i,15n,131p,790b,1137s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/t2/t2a.enc}<C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/textb19.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/textb20.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/times.pfb><C:/Users/TimofeyT/AppData/Local/Programs/MiKTeX/fonts/type1/public/pscyr/timesi.pfb>
-Output written on Otchet_NIR_Tislenko.pdf (18 pages, 3851786 bytes).
+Output written on Otchet_NIR_Tislenko.pdf (18 pages, 3855167 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
+ 392 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
- 567 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 603 words of extra memory for PDF output out of 10000 (max. 10000000)
 

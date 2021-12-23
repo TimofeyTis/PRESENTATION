@@ -2225,10 +2225,9 @@ INPUT Otchet_NIR_Tislenko.nav
 INPUT Otchet_NIR_Tislenko.nav
 INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxr6a.tfm
 INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
+INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
+INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
 INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxr6a.tfm
-INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
-INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
-INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
 OUTPUT Otchet_NIR_Tislenko.upa
 INPUT C:\Users\TimofeyT\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT .\images\jams.png
@@ -2239,6 +2238,7 @@ INPUT .\images\jams.png
 INPUT .\images\jams.png
 INPUT .\images\jams.png
 INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxr6a.tfm
+INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
 INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
 INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxb6a.tfm
 INPUT C:\Users\TimofeyT\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pscyr\ftxr6a.tfm
